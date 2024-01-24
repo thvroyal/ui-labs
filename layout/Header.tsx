@@ -28,7 +28,7 @@ const navigationLink: NavigationLink[] = [
 
 export function Header() {
   return (
-    <header className="relative bg-[var(--light,theme(colors.gray.50/0.8))_var(--dark,theme(colors.gray.950/0.01))] backdrop-blur-md">
+    <header className="relative bg-[var(--light,theme(colors.white/0.25))_var(--dark,theme(colors.gray.950/0.01))] backdrop-blur-md">
       <div className="container relative flex h-16 items-center px-6 lg:px-0">
         <div className="absolute inset-x-0 top-full mt-px h-px bg-[var(--light,theme(colors.white/0.3))_var(--dark,transparent)]" />
         <div className="absolute inset-x-0 top-full h-px bg-[var(--light,theme(colors.gray.500/0.125))_var(--dark,theme(colors.white/0.075))]" />
