@@ -1,9 +1,9 @@
-import { ArrowRight } from 'lucide-react';
-import { Button } from './ui/button';
+import { ArrowRight, Sparkle } from "lucide-react";
+import { Button } from "./ui/button";
 
 export default function HeroBanner() {
   return (
-    <div className="pt-8">
+    <div className="px-6 pt-8">
       <div className="relative mx-auto flex max-w-3xl flex-col items-center">
         <div className="mb-8 flex">
           <a
@@ -29,23 +29,20 @@ export default function HeroBanner() {
         </div>
         <h2 className="text-center text-3xl font-bold text-gray-900 sm:text-6xl dark:text-gray-50">
           Collection of beautiful,{" "}
-          <span className="inline-flex leading-tight">
-            UI element snippets
-          </span>
+          <span className="inline-flex leading-tight">UI element snippets</span>
         </h2>
         <p className="mt-6 text-center text-lg leading-6 text-gray-600 dark:text-gray-200">
-        Looking for inspiration for your website? Check out these stunning examples with cutting-edge design and engaging features.
+          Looking for inspiration for your website? Check out these stunning
+          examples with cutting-edge design and engaging features.
         </p>
         <div className="mt-10 flex gap-4">
           <a
-            href="https://github.com/thvroyal/ui-labs"
+            href="https://github.com/thvroyal/ui-labs/pulls"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center"
           >
-            <Button>
-              Go to GitHub <ArrowRight className="pl-0.5" size={16} />
-            </Button>{" "}
+            <Button>Submit an element</Button>
           </a>
         </div>
       </div>
