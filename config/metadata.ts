@@ -1,4 +1,4 @@
 export default {
-  title: 'Next Marketing Site',
-  description: 'Starter template for marketing website with full SEO support',
+  title: 'UI Labs',
+  description: 'A modern UI collection crafted exclusively with TailwindCSS. Ready to integrate with simple copy-paste',
 } as const;
